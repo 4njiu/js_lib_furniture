@@ -8,6 +8,7 @@ body {
     color: #333;
 }
 
+/* header */
 .header {
     background-color: #f8f9fa;
     padding: 20px 0;
@@ -26,6 +27,7 @@ body {
     font-family: 'Lora', serif;
 }
 
+/* navbar */
 nav {
     margin-top: 10px;
 }
@@ -69,7 +71,6 @@ nav ul li a:hover {
     height: auto;
     border-radius: 10px;
 }
-
 .products {
     padding: 40px 0;
 }
@@ -120,11 +121,15 @@ nav ul li a:hover {
     color: #555;
 }
 
+
+/* find us here */
+
 .address {
     padding: 40px 0;
 }
 
 .address h2 {
+    font-family: "Outfit", sans-serif;
     font-size: 2rem;
     color: #222;
     margin-bottom: 20px;
@@ -138,6 +143,8 @@ nav ul li a:hover {
     border-radius: 10px;
     border: 1px solid #ddd;
 }
+
+/* footer */
 
 footer {
     background-color: #f8f9fa;
