@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>saturdays</h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="carousel-section" data-aos="fade-up">
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide"><img src="https://via.placeholder.com/1200x600?text=Furniture+1" alt="Furniture 1"></li>
+                    <li class="glide__slide"><img src="https://via.placeholder.com/1200x600?text=Furniture+2" alt="Furniture 2"></li>
+                    <li class="glide__slide"><img src="https://via.placeholder.com/1200x600?text=Furniture+3" alt="Furniture 3"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" data-aos="fade-up">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <a href="https://via.placeholder.com/600x400?text=Furniture+1" data-lightbox="product" data-title="Furniture 1">
+                        <img src="https://via.placeholder.com/600x400?text=Furniture+1" alt="Furniture 1">
+                    </a>
+                    <h3>Furniture 1</h3>
+                    <p>Description of Furniture 1</p>
+                </div>
+                <div class="product">
+                    <a href="https://via.placeholder.com/600x400?text=Furniture+2" data-lightbox="product" data-title="Furniture 2">
+                        <img src="https://via.placeholder.com/600x400?text=Furniture+2" alt="Furniture 2">
+                    </a>
+                    <h3>Furniture 2</h3>
+                    <p>Description of Furniture 2</p>
+                </div>
+                <div class="product">
+                    <a href="https://via.placeholder.com/600x400?text=Furniture+3" data-lightbox="product" data-title="Furniture 3">
+                        <img src="https://via.placeholder.com/600x400?text=Furniture+3" alt="Furniture 3">
+                    </a>
+                    <h3>Furniture 3</h3>
+                    <p>Description of Furniture 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="address" data-aos="fade-up">
+        <div class="container">
+            <h2>Find Us Here</h2>
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container footer-container">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>1234 Furniture St.</p>
+                <p>City, State, ZIP</p>
+                <p>Email: info@furniturestore.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul class="social-media">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="quick-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Furniture Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
