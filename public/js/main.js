@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize Glide.js
+    //glide.js
     new Glide('.glide').mount();
 
-    // Initialize AOS
+    // AOS
     AOS.init();
 
-    // Initialize Leaflet map centered at Toronto
+    //leaflet
     var map = L.map('map').setView([43.651070, -79.347015], 13); // Toronto coordinates
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .bindPopup('Our Furniture Store Location in Toronto')
         .openPopup();
 
-    // Animate footer with Anime.js
+    //anime.js
     anime({
         targets: '#footer',
         translateY: [100, 0],
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         delay: 500
     });
 
-    // Animate navigation bar links
+    // nav bar
     anime({
         targets: '#nav ul li',
         translateY: [-20, 0],
